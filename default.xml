@@ -437,16 +437,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <project path="platform_manifest" name="MerkMod/android_platform_manifest" remote="github" revision="android-4.4" />
+  <project path="android_manifest" name="MerkMod/android_manifest" remote="github" revision="android-4.4" />
 
-  <!-- New Additions for slim -->
-  <project path="vendor/slim" name="MerkMod/android_vendor_slim" remote="github" revision="android-4.4" />
-
-  <!-- Slim OTA -->
-  <project path="packages/apps/SlimCenter" name="MerkMod/android_packages_apps_SlimCenter" remote="github" revision="android-4.4" />
-
-  <!-- Slim file manager -->
-  <project path="packages/apps/SlimFileManager" name="MerkMod/android_packages_apps_SlimFileManager" remote="github" revision="android-4.4" />
+  <!-- New Additions for Merk -->
+  <project path="vendor/merk" name="MerkMod/android_vendor_merk" remote="github" revision="android-4.4" />
 
   <!-- DSPManager -->
   <project path="packages/apps/DSPManager" name="MerkMod/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
@@ -454,7 +448,7 @@
   <!--Power Hal -->
   <project path="hardware/cm" name="MerkMod/android_hardware_cm" remote="github" revision="android-4.4" />
 
-  <!-- Slim toolchain gcc and linaro -->
+  <!-- Merk toolchain gcc and linaro -->
   <project path="prebuilt" name="MerkMod/android_prebuilt" remote="github" revision="android-4.4" />
 
   <!-- DashClock widget -->
@@ -463,9 +457,10 @@
   <!-- Google play services -->
   <project path="external/google/google_play_services" name="MerkMod/android_external_google_google_play_services" remote="github" revision="android-4.4" />
 
-  <!-- Koush Superuser -->
+  <!-- Koush Superuser
   <project path="external/koush/Superuser" name="MerkMod/android_Superuser" remote="github" revision="android-4.4" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
+  -->
 
   <!--CyanogenMod SamsungServiceMode -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
