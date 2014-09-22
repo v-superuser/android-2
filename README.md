@@ -65,4 +65,4 @@ use
 
 Gerrit will recognize it as a new patchset.
 
-To view the status of your and others patches, visit [MerkMod Code Review](review.merkmod.com)
+To view the status of your and others patches, visit [MerkMod Code Review](http://review.merkmod.com/#/q/status:open,n,z)
