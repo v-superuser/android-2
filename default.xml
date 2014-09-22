@@ -448,9 +448,9 @@
   <!--Power Hal -->
   <project path="hardware/cm" name="MerkMod/android_hardware_cm" remote="github" revision="android-4.4" />
 
-  <!-- merk toolchain gcc and linaro -->
+  <!-- merk toolchain gcc and linaro 
   <project path="prebuilt" name="MerkMod/android_prebuilt" remote="github" revision="android-4.4" />
-
+  -->
   <!-- DashClock widget -->
   <project path="packages/apps/DashClock" name="MerkMod/android_packages_apps_DashClock" remote="github" revision="android-4.4" />
 
