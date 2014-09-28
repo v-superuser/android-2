@@ -16,7 +16,7 @@
 	   revision="android-4.4"
 	   fetch="https://github.com/PupPeople/" />
 
-  <default revision="refs/tags/android-4.4"
+  <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="merk"
            sync-j="4" />
 
