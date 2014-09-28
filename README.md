@@ -1,4 +1,4 @@
-Welcome to MerkMod Roms
+Welcome to MerkMod
 =======================
 
 
@@ -20,12 +20,12 @@ To initialize your local repository using the MerkMod trees, use this command:
 
 for google, exynos and non qcom devices:
 
-	repo init -u git://github.com/MerkMod/android_manifest.git -b android-4.4
+	repo init -u git://github.com/MerkMod/android.git -b android-4.4
 
 
 for qcom devices which are using CodeAuroraForum trees:
 
-	repo init -u git://github.com/MerkMod/android_manifest.git -b android-4.4-caf
+	repo init -u git://github.com/MerkMod/android.git -b android-4.4-caf
 
 
 
